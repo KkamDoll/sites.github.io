@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #171c3c;
+}
+
+.youtube{
+    width: 300px;
+    height: 450px;
+    border-radius: 8px;
+    background-color: #f85858;
+    position: absolute;
+    left: 200px;
+    cursor: pointer;
+    transition:  all 0.5s;
+}
+
+.youtube:hover{
+    transform: scale(1.3)
+}
+
+.youtube img{
+    position: absolute;
+    left: 40px;
+    top: 80px;
+}
+
+.twitch{
+    width: 300px;
+    height: 450px;
+    border-radius: 8px;
+    background-color: #985afc;
+    position: absolute;
+    left: 580px;
+    cursor: pointer;
+    transition:  all 0.5s;
+}
+
+.twitch:hover{
+    transform: scale(1.3)
+}
+
+.twitch img{
+    position: absolute;
+    left: 50px;
+    top: 110px;
+}
+
+.discoard{
+    width: 300px;
+    height: 450px;
+    border-radius: 8px;
+    background-color: #a99aeb;
+    position: absolute;
+    left: 960px;
+    cursor: pointer;
+    transition:  all 0.5s;
+}
+
+.discoard:hover{
+    transform: scale(1.3)
+}
+
+.discoard img{
+    position: absolute;
+    left: 50px;
+    top: 110px;
+}
